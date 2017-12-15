@@ -1,7 +1,7 @@
 {
-  "name": "python-brasil-2018",
+  "name": "python-joinville",
   "version": "1.0.0",
-  "description": "Python Brasil 2018 website",
+  "description": "Site da Comunidade Python de Joinville",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/evolux/site-python-brasil-2018.git"
+    "url": "git+ssh://git@github.com/python-joinville/python-joinville.github.io.git"
   },
   "author": "Evolux",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/evolux/site-python-brasil-2018#readme",
+  "homepage": "https://github.com/python-joinville/python-joinville.github.io",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "babel-core": "^6.24.1",
