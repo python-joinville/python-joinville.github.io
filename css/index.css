@@ -40,23 +40,23 @@ html {
 *::after {
   box-sizing: inherit; }
 
-.container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .keynotes-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
+.container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .meetups-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .keynotes-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
+    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .meetups-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .keynotes-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
+    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .meetups-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .keynotes-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
+    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .meetups-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .keynotes-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
+    .container, .header__nav .nav__items, .jumbotron-wrapper .jumbotron-container, .about-wrapper .about-container, .sponsors-wrapper .about-container, .meetups-container, .location-container, .sponsors-wrapper .sponsors-container, .realization-wrapper .realization-container {
       max-width: 1140px; } }
 
 .container-fluid, .jumbotron-wrapper {
@@ -66,7 +66,7 @@ html {
   margin-right: auto;
   margin-left: auto; }
 
-.row, .jumbotron-wrapper .jumbotron, .about, .keynotes-container .keynotes, .location-container .location, .sponsors-wrapper .sponsors-container .sponsors, .realization-wrapper .realization-container .realization {
+.row, .jumbotron-wrapper .jumbotron, .about, .meetups-container .meetups, .location-container .location, .sponsors-wrapper .sponsors-container .sponsors, .realization-wrapper .realization-container .realization {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -80,10 +80,10 @@ html {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .jumbotron-wrapper .jumbotron .jumbotron__side, .about__article, .about__article--left, .about__article--right, .sponsor-category-title, .sponsors .call-to-sponsor, .col-11, .col-12, .jumbotron-wrapper .jumbotron .jumbotron__main, .location__info__article, .holiday-inn-banner, .sponsors__list .sponsor, .realization .evolux-logo, .col,
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .jumbotron-wrapper .jumbotron .jumbotron__side, .about__article, .about__article--left, .about__article--right, .sponsor-category-title, .sponsors .call-to-sponsor, .col-11, .col-12, .jumbotron-wrapper .jumbotron .jumbotron__main, .location__info__article, .past-location-banner, .sponsors__list .sponsor, .realization .evolux-logo, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .sponsors-wrapper .sponsors-container .sponsors .section-header-wrapper .section-header--right, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .keynote__summary__photo, .col-lg-4, .col-lg-5, .section-header-wrapper .section-header, .section-header-wrapper .section-header--right, .col-lg-6, .col-lg-7, .keynote__summary__body, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sponsors__call-to-action, .col-lg,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .meetup__summary__photo, .col-lg-4, .col-lg-5, .section-header-wrapper .section-header, .section-header-wrapper .section-header--right, .col-lg-6, .col-lg-7, .meetup__summary__body, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .sponsors__call-to-action, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
   position: relative;
@@ -146,7 +146,7 @@ html {
   flex: 0 0 91.6666666667%;
   max-width: 91.6666666667%; }
 
-.col-12, .jumbotron-wrapper .jumbotron .jumbotron__main, .location__info__article, .holiday-inn-banner, .sponsors__list .sponsor, .realization .evolux-logo {
+.col-12, .jumbotron-wrapper .jumbotron .jumbotron__main, .location__info__article, .past-location-banner, .sponsors__list .sponsor, .realization .evolux-logo {
   flex: 0 0 100%;
   max-width: 100%; }
 
@@ -277,7 +277,7 @@ html {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%; }
 
-  .col-sm-12, .location__info__article, .holiday-inn-banner {
+  .col-sm-12, .location__info__article, .past-location-banner {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -410,7 +410,7 @@ html {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%; }
 
-  .col-md-12, .location__info__article, .holiday-inn-banner {
+  .col-md-12, .location__info__article, .past-location-banner {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -507,7 +507,7 @@ html {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%; }
 
-  .col-lg-3, .jumbotron-wrapper .jumbotron .jumbotron__main, .keynote__summary__photo {
+  .col-lg-3, .jumbotron-wrapper .jumbotron .jumbotron__main, .meetup__summary__photo {
     flex: 0 0 25%;
     max-width: 25%; }
 
@@ -519,11 +519,11 @@ html {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%; }
 
-  .col-lg-6, .jumbotron-wrapper .jumbotron .jumbotron__side, .location__info__article, .holiday-inn-banner, .sponsors-wrapper .sponsors-container .sponsors .section-header-wrapper .section-header--right {
+  .col-lg-6, .jumbotron-wrapper .jumbotron .jumbotron__side, .location__info__article, .past-location-banner, .sponsors-wrapper .sponsors-container .sponsors .section-header-wrapper .section-header--right {
     flex: 0 0 50%;
     max-width: 50%; }
 
-  .col-lg-7, .keynote__summary__body {
+  .col-lg-7, .meetup__summary__body {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%; }
 
@@ -781,7 +781,7 @@ html {
 .justify-content-end {
   justify-content: flex-end !important; }
 
-.justify-content-center, .pybr-button-large, .pybr-button-large--dark, .pybr-button-large--light, .placeholder-message, .placeholder-message--negative, .header__nav-mobile__header, .header__mobile, .about, .keynote__summary, .sponsors__diamond, .sponsors__platinum, .sponsors__gold, .sponsors__silver, .sponsors__list, .sponsors__list .sponsor, .realization .evolux-logo, .footer__actions .social__nav__menu {
+.justify-content-center, .pybr-button-large, .pybr-button-large--dark, .pybr-button-large--light, .placeholder-message, .placeholder-message--negative, .header__nav-mobile__header, .header__mobile, .about, .meetup__summary, .sponsors__diamond, .sponsors__platinum, .sponsors__gold, .sponsors__silver, .sponsors__list, .sponsors__list .sponsor, .realization .evolux-logo, .footer__actions .social__nav__menu {
   justify-content: center !important; }
 
 .justify-content-between, .jumbotron-wrapper .jumbotron, .location__info__article, .footer__nav {
@@ -1635,7 +1635,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, .pybr-button-large, .pybr-button-large--dark, .pybr-button-large--light, .placeholder-message, .placeholder-message--negative, .header__nav, .header__nav-mobile__header, .header__mobile, .jumbotron-wrapper .jumbotron, .jumbotron-wrapper .jumbotron .jumbotron__main, .jumbotron-wrapper .jumbotron .jumbotron__action, .about, .keynote__summary, .location__info, .location__info__article, .sponsors__diamond, .sponsors__platinum, .sponsors__gold, .sponsors__silver, .sponsors__list, .sponsors__list .sponsor, .realization .evolux-logo, .footer__nav, .footer__actions, .footer__actions .social__nav__menu {
+.d-flex, .pybr-button-large, .pybr-button-large--dark, .pybr-button-large--light, .placeholder-message, .placeholder-message--negative, .header__nav, .header__nav-mobile__header, .header__mobile, .jumbotron-wrapper .jumbotron, .jumbotron-wrapper .jumbotron .jumbotron__main, .jumbotron-wrapper .jumbotron .jumbotron__action, .about, .meetup__summary, .location__info, .location__info__article, .sponsors__diamond, .sponsors__platinum, .sponsors__gold, .sponsors__silver, .sponsors__list, .sponsors__list .sponsor, .realization .evolux-logo, .footer__nav, .footer__actions, .footer__actions .social__nav__menu {
   display: flex !important; }
 
 .d-inline-flex {
@@ -1832,7 +1832,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .justify-content-end {
   justify-content: flex-end !important; }
 
-.justify-content-center, .pybr-button-large, .pybr-button-large--dark, .pybr-button-large--light, .placeholder-message, .placeholder-message--negative, .header__nav-mobile__header, .header__mobile, .about, .keynote__summary, .sponsors__diamond, .sponsors__platinum, .sponsors__gold, .sponsors__silver, .sponsors__list, .sponsors__list .sponsor, .realization .evolux-logo, .footer__actions .social__nav__menu {
+.justify-content-center, .pybr-button-large, .pybr-button-large--dark, .pybr-button-large--light, .placeholder-message, .placeholder-message--negative, .header__nav-mobile__header, .header__mobile, .about, .meetup__summary, .sponsors__diamond, .sponsors__platinum, .sponsors__gold, .sponsors__silver, .sponsors__list, .sponsors__list .sponsor, .realization .evolux-logo, .footer__actions .social__nav__menu {
   justify-content: center !important; }
 
 .justify-content-between, .jumbotron-wrapper .jumbotron, .location__info__article, .footer__nav {
@@ -4131,55 +4131,60 @@ a.text-dark:focus, a.text-dark:hover {
 @media (min-width: 991px) {
   .about-wrapper .about-container, .sponsors-wrapper .about-container {
     background-position: 295px 65px, right bottom; } }
-.keynotes-wrapper {
+.meetups-wrapper {
   margin-top: 0px;
   position: relative; }
-  .keynotes-wrapper:before, .keynotes-wrapper:after {
+  .meetups-wrapper:before, .meetups-wrapper:after {
     content: '';
     background-color: white;
     display: block;
     position: absolute;
     height: 100px;
     top: 0px; }
-  .keynotes-wrapper:before {
+  .meetups-wrapper:before {
     transform-origin: right top;
     width: 100%;
     left: 0px;
     transform: skewY(5deg); }
     @media (min-width: 1441px) {
-      .keynotes-wrapper:before {
+      .meetups-wrapper:before {
         transform: skewY(3.75deg); } }
     @media (min-width: 1921px) {
-      .keynotes-wrapper:before {
+      .meetups-wrapper:before {
         transform: skewY(3deg); } }
     @media (min-width: 2560px) {
-      .keynotes-wrapper:before {
+      .meetups-wrapper:before {
         transform: skewY(1.8deg); } }
-  .keynotes-wrapper:after {
+  .meetups-wrapper:after {
     transform: translateY(-50px);
     height: 50px;
     width: 35%;
     left: 0px; }
     @media (max-width: 991px) {
-      .keynotes-wrapper:after {
+      .meetups-wrapper:after {
         width: 20%;
         left: 0px; } }
     @media (max-width: 767px) {
-      .keynotes-wrapper:after {
+      .meetups-wrapper:after {
         width: 0%;
         left: 0px; } }
 
-.keynotes__list {
+.meetups__list {
   width: 100%; }
 
-.keynote__summary {
+.meetup__summary {
   width: 100%; }
-  .keynote__summary:nth-child(odd) .keynote__summary__body {
+  .meetup__summary:nth-child(odd) .meetup__summary__body {
     order: 2; }
-  .keynote__summary__body {
-    background-color: blue; }
-  .keynote__summary__photo {
-    background-color: yellow; }
+  .meetup__summary__body {
+    background-color: white; }
+  .meetup__summary__title {
+    font-size: 35px; }
+  .meetup__summary__text {
+    font-weight: 500;
+    font-size: 20px; }
+  .meetup__summary__photo {
+    background-color: white; }
 
 .location-wrapper {
   background-color: #102E46;
@@ -4240,9 +4245,21 @@ a.text-dark:focus, a.text-dark:hover {
         font-size: 32px;
         font-weight: 600;
         color: #EFC780; }
+      .location__info__article .article__header__tiny_header {
+        color: #EFC780;
+        font-weight: 300;
+        font-style: italic;
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px; }
       .location__info__article .article__header__subtitle {
         font-family: 'Nunito', sans-serif;
         font-size: 16px; }
+    .location__info__article .past-location-website {
+      display: block;
+      font-family: 'Advent Pro', sans-serif;
+      color: white;
+      font-weight: 600;
+      font-size: 24px; }
     .location__info__article .article__section {
       padding-right: 10px;
       margin-bottom: 10px; }
@@ -4254,14 +4271,6 @@ a.text-dark:focus, a.text-dark:hover {
         font-size: 16px; }
       .location__info__article .article__section p {
         margin-bottom: 3px; }
-
-.holiday-inn-banner .holiday-inn-website {
-  text-align: right;
-  display: block;
-  font-family: 'Advent Pro', sans-serif;
-  color: #EFC780;
-  font-weight: 600;
-  font-size: 24px; }
 
 @media (min-width: 991px) {
   .location__info {
@@ -4275,10 +4284,7 @@ a.text-dark:focus, a.text-dark:hover {
         font-size: 20px; }
       .location__info__article .article__section {
         padding: 0px;
-        margin: 0px 0px; }
-
-  .holiday-inn-banner .holiday-inn-website {
-    font-size: 34px; } }
+        margin: 0px 0px; } }
 .sponsors-wrapper {
   margin-top: 0px;
   position: relative;
@@ -4522,7 +4528,7 @@ p {
   padding-bottom: 120px; }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 70%;
   display: block;
   margin: 0 auto; }
 

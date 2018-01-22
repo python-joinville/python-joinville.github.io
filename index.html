@@ -14,10 +14,9 @@
       <button class="mobile-nav-trigger--close" id="mobile-nav-close-trigger"></button>
     </header>
     <ul class="nav__items">
-      <a class="nav__anchor scroll" href="#about"><li class="nav__item">Comunidade</li></a>
-      <a class="nav__anchor scroll" href="#meetings"><li class="nav__item">Encontros</li></a>
-      <a class="nav__anchor" disabled href="#presentations"><li class="nav__item">Apresentações</li></a>
-      <a class="nav__anchor scroll" href="#sponsors"><li class="nav__item">Patrocinadores</li></a>
+      <a class="nav__anchor scroll" href="#top"><li class="nav__item">Comunidade</li></a>
+      <a class="nav__anchor scroll" href="#meetings"><li class="nav__item">Meetups</li></a>
+      <a class="nav__anchor" disabled href="#locations"><li class="nav__item">>Locais Prévios</li></a>
     </ul>
   </nav>
   <div class="content-wrapper" id="top">
@@ -30,15 +29,14 @@
           <button class="mobile-nav-trigger" id="mobile-nav-trigger"></button>
         </div>
         <ul class="nav__items">
-          <li class="nav__item"><a class="nav__anchor scroll" href="#about">Comunidade</a></li>
-          <li class="nav__item"><a class="nav__anchor scroll" href="#meetings">Encontros</a></li>
           <li class="nav__item">
             <a class="nav__anchor" href="#top">
               <img width="40px" height="40px" src="img/python-logo.svg" alt="Logo Python">
             </a>
           </li>
-          <li class="nav__item d-none d-lg-flex"><a class="nav__anchor scroll" href="#presentations">Apresentações</a></li>
-          <li class="nav__item"><a class="nav__anchor scroll" href="#sponsors">Patrocinadores</a></li>
+          <li class="nav__item"><a class="nav__anchor scroll" href="#top">Comunidade</a></li>
+          <li class="nav__item"><a class="nav__anchor scroll" href="#meetings">Meetups</a></li>
+          <li class="nav__item d-none d-lg-flex"><a class="nav__anchor scroll" href="#locations">Locais Prévios</a></li>
         </ul>
       </nav>
     </header>
@@ -52,8 +50,8 @@
                 </h1>
               </header>
               <p class="about__article__body">
-                XXX.
-              </p>
+                Joinville - sede do Bolshoi Brasil, cidade das bicicletas e dos príncipes - é uma cidade em rápido desenvolvimento. Atualmente, contém cerca de 19% das empresas de tecnologia de Santa Catarina e um espírito rejuvenescente com a sua gama de eventos de inovação.
+               </p>
             </article>
             <article class="about__article--right">
               <header>
@@ -62,107 +60,104 @@
                 </h1>
               </header>
               <p class="about__article__body">
-                A Python Joinville é uma comunidade de usuários da linguagem e do ecossistema Python de Joinville, Santa Catarina. Feito pela comunidade para a comunidade, tem o objetivo de difundir a linguagem, promover a troca de experiências e manter a comunidade crescendo igualmente em público e impacto social. Promovemos encontros onde os participantes podem contribuir para projetos de software livre e adquirir novos conhecimentos com desenvolvedores da comunidade. Venha participar dos nossos encontros, nos siga nas redes sociais ou se cadastre na lista de e-mail para saber onde e quando será o próximo. Somos uma comunidade aberta e seguimos o <a href="https://github.com/pythonbrasil/codigo-de-conduta">código de conduta da Associação Python Brasil</a>. Sendo um hacker ou um iniciante, aqui você será bem vindo.
+                A Python Joinville é uma comunidade de usuários da linguagem e do ecossistema Python de Joinville, Santa Catarina. Feito pela comunidade para a comunidade, tem o objetivo de difundir a linguagem, promover a troca de experiências e manter a comunidade crescendo igualmente em público e impacto social. Promovemos encontros onde os participantes podem contribuir para projetos de software livre e adquirir novos conhecimentos com desenvolvedores da comunidade. Sendo um hacker ou um iniciante, aqui você será bem vindo.
               </p>
             </article>
           </div>
         </article>
       </section>
     </section>
-    <section class="keynotes-wrapper" id="meetings">
-      <div class="keynotes-container">
-        <div class="keynotes">
+   <section class="meetups-wrapper" id="meetings">
+      <div class="meetups-container">
+        <div class="meetups">
           <header class="section-header-wrapper">
             <div class="section-header">
               <h1 class="section-title--left">
-                Encontros
-              </h1>
+                Meetups
+              </h1><br>
             </div>
           </header>
-          <h1 class="placeholder-message">
-          </h1>
-          <section class="keynotes__list">
-            <article class="keynote__summary">
-              <div class="keynote__summary__body">
-                <header class="keynote__summary__title">
-
+         <section class="meetups__list">
+            <article class="meetup__summary meetup-margin-spacer">
+              <div class="meetup__summary__body">
+                <header class="meetup__summary__title">
+                  1º Meetup de Python em Joinville (15/11/2017)
                 </header>
-                <p class="keynote__summary__text">
-
+                <p class="meetup__summary__text"><br>
+                Palestras:<br>
+                  - Introdução aos ChatBots em Python (por Alan Rafael Fachini e Daniel Bastos)<br>
+                  - Computação de alta performance com MPI em Python (por Renan Samuel da Silva)
                 </p>
               </div>
-              <div class="keynote__summary__photo">
-
-              </div>
+              <img class="meetup-img-fluid" src="./img/first-meetup.jpg"  height="300" width="400">
             </article>
-            <article class="keynote__summary">
-              <div class="keynote__summary__body">
-                <header class="keynote__summary__title">
-
+            <br><br><br>
+            <article class="meetup__summary meetup-margin-spacer">
+              <div class="meetup__summary__body">
+                <header class="meetup__summary__title">
+                  2º Meetup de Python em Joinville (13/12/2017)
                 </header>
-                <p class="keynote__summary__text">
-
+                <p class="meetup__summary__text"><br>
+                Palestras:<br>
+                  - Testes de aplicação Python (por Daniel Bastos)<br>
+                  - Utilizando Clean Architecture na prática (por Jorge Klemm)<br><br>
+                Lightning Talks<br>
+                  - Extraindo tabelas de PDFs (por Álvaro "Turicas" Justen)
                 </p>
               </div>
-              <div class="keynote__summary__photo">
-
-              </div>
-            </article>
-            <article class="keynote__summary">
-              <div class="keynote__summary__body">
-                <header class="keynote__summary__title">
-
-                </header>
-                <p class="keynote__summary__text">
-
-                </p>
-              </div>
-              <div class="keynote__summary__photo">
-
-              </div>
+              <img class="meetup-img-fluid" src="./img/second-meetup.jpeg"  height="300" width="400">
             </article>
           </section>
         </div>
       </div>
     </section>
-    <section class="location-wrapper" id="presentations">
+    </section>
+    <section class="location-wrapper" id="locations">
       <div class="location-container">
         <div class="location">
           <header class="section-header-wrapper">
             <div class="section-header--right">
               <h1 class="section-title--right">
-                Apresentações
+                Locais Prévios
               </h1>
             </div>
           </header>
           <div class="location__info">
             <article class="location__info__article">
               <header class="article__header">
+                <h1 class="article__header__tiny_header">
+                  1º Meetup (15/11/2017)
+                </h1>
                 <h1 class="article__header__title">
-                  Hotel Holiday Inn Natal
+                  Fliperama Espaço Colaborativo
                 </h1>
                 <p class="article__header__subtitle">
-                  Av. Sen. Salgado Filho, 1906 - Lagoa Nova, Natal -RN
+                  Rua Orestes Guimarães, 876, 4o Andar, América - Joinville/SC - CEP 89204-060<br>
+                  <a class="past-location-website" href="http://fliperamaec.com.br/">http://fliperamaec.com.br/</a>
                 </p>
               </header>
             </article>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="realization-wrapper" id="realization">
-      <div class="realization-container">
-        <div class="realization">
-          <header class="section-header-wrapper">
-            <div class="section-header">
-              <h1 class="section-title--left">
-                REALIZAÇÃO
-              </h1>
+            <div class="past-location-banner">
+              <img class="img-fluid" src="./img/logo-fliperama.png">
             </div>
-          </header>
-          <div class="evolux-logo">
-            <a target="_blank" href="http://evolux.net.br">
-            </a>
+            <br><br>
+            <article class="location__info__article">
+              <header class="article__header">
+                <h1 class="article__header__tiny_header">
+                  2º Meetup (13/12/2017)
+                </h1>
+                <h1 class="article__header__title">
+                  Meus Pedidos
+                </h1>
+                <p class="article__header__subtitle">
+                  Av. Rolf Wiest, 277 - Bom Retiro, Joinville - SC, 89223-005<br>
+                  <a class="past-location-website" href="https://meuspedidos.com.br/">https://meuspedidos.com.br/</a>
+                </p>
+              </header>
+            </article>
+            <div class="past-location-banner">
+              <img class="img-fluid" src="./img/logo-meus-pedidos.png">
+            </div>
           </div>
         </div>
       </div>
@@ -177,16 +172,13 @@
                   Sobre
                 </h4>
                 <li class="footer__nav__menu__item">
-                  <a class="scroll" href="#about">Comunidade</a>
+                  <a class="scroll" href="#top">Comunidade</a>
                 </li>
                 <li class="footer__nav__menu__item">
-                  <a class="scroll" href="#meetings">Encontros</a>
+                  <a class="scroll" href="#meetings">Meetups</a>
                 </li>
                 <li class="footer__nav__menu__item">
-                  <a class="scroll" href="#presentations">Apresentações</a>
-                </li>
-                <li class="footer__nav__menu__item">
-                  <a class="soon" disabled href="#">Programação</a>
+                  <a class="scroll" href="#locations">Locais Prévios</a>
                 </li>
               </ul>
             </nav>
@@ -194,7 +186,7 @@
           <div class="col-xl-4 col-lg-12 col-md-12 offset-lg-1">
             <div class="footer__actions">
               <a disabled href="#" class="pybr-button--light">
-                Inscrições em breve
+                Envolva-se!
               </a>
               <nav class="social__nav">
                 <ul class="social__nav__menu">
@@ -213,6 +205,11 @@
                       <img height="100%" src="img/feed.svg" />
                     </a>
                   </li>
+                  <li class="social__nav__menu__item">
+                    <a target="_blank" href="https://github.com/python-joinville/">
+                      <img height="100%" src="img/github.svg" />
+                    </a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -222,8 +219,10 @@
           </div>
           <div class="footer-note col-12">
             <p>
-              Ajude a manter esse site: pegue os fontes no GitHub e mande um Pull Request com suas alterações.
-              Python Joinville is a non-profit volunteer-driven community for promoting the open-source Python programming language.
+              <center>
+                Ajude a manter esse site: só abrir aquele PR básico no GitHub com as suas alterações :)<br><hr>
+                Python Joinville is a non-profit volunteer-driven community for promoting the open-source Python programming language.
+              </center>
             </p>
           </div>
         </div>
