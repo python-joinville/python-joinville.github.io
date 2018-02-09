@@ -4479,6 +4479,9 @@ a.text-dark:focus, a.text-dark:hover {
     padding-top: 13px;
     padding-bottom: 13px;
     font-weight: 600; }
+  .footer .sponsor {
+    padding-right: 15px;
+    padding-left: 15px; }
   .footer__actions {
     flex-direction: row;
     flex-wrap: wrap;

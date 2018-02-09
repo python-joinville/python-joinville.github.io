@@ -53,6 +53,12 @@
     padding-bottom: 13px;
     font-weight: 600;
   }
+
+  .sponsor {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
   &__actions {
     @extend .d-flex;
     @extend .justify-content-around;
