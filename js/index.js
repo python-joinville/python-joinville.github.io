@@ -48,13 +48,6 @@ class MobileNavManager {
     }
     this.mobileNav.classList.toggle('opened');
     this.handleFocus();
-
-    if (e.currentTarget.classList.contains('scroll')) {
-      var offset = $($(e.currentTarget).attr('href')).offset()
-      $('body').stop().animate({
-        'scrollTop': offset.top - $('.header__nav').height()
-      }, 900);
-    }
   }
 
   get isOpened() {
@@ -64,4 +57,11 @@ class MobileNavManager {
 
 document.addEventListener('DOMContentLoaded', () => {
   new MobileNavManager();
+
+  $('.nav__item .nav__anchor').click(function() {
+    var offset = $($(this).attr('href')).offset()
+    $('body').stop().animate({
+      'scrollTop': offset.top - $('.header__nav').height()
+    }, 900);
+  })
 });
