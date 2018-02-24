@@ -1,6 +1,3 @@
-import 'scss/index.scss';
-import ScrollTo from 'storm-scroll-to';
-
 class MobileNavManager {
   constructor() {
     this.mobileNav = document.querySelector('#mobile-nav');
@@ -51,9 +48,6 @@ class MobileNavManager {
     }
     this.mobileNav.classList.toggle('opened');
     this.handleFocus();
-    if (e.currentTarget.classList.contains('scroll')) {
-      e.preventDefault();
-    }
   }
 
   get isOpened() {
@@ -63,8 +57,11 @@ class MobileNavManager {
 
 document.addEventListener('DOMContentLoaded', () => {
   new MobileNavManager();
-  ScrollTo.init('.scroll', {
-    offset: 120,
-    focus: false,
-  });
+
+  $('.nav__item .nav__anchor').click(function() {
+    var offset = $($(this).attr('href')).offset()
+    $('body').stop().animate({
+      'scrollTop': offset.top - $('.header__nav').height()
+    }, 900);
+  })
 });
