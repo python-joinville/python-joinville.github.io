@@ -3911,7 +3911,7 @@ a.text-dark:focus, a.text-dark:hover {
   .header__nav-mobile .nav__items {
     height: calc(100vh - 64px);
     max-height: 700px;
-    overflow-y: scroll; }
+    list-style: none; }
     .header__nav-mobile .nav__items .subscribe-button {
       list-style: none;
       padding: 14px 30px; }
