@@ -22,9 +22,6 @@
 }
 
 .header__nav {
-
-
-
   z-index: 999;
   height: 64px;
   width: 100%;
@@ -84,7 +81,7 @@
   .nav__items {
     height: calc(100vh - 64px);
     max-height: 700px;
-    overflow-y: scroll;
+    list-style: none;
     .subscribe-button {
       list-style: none;
       padding: 14px 30px;

@@ -16,6 +16,8 @@
 .meetup__summary {
   width: 100%;
   @extend .d-flex;
+  @extend .flex-column;
+  @extend .flex-md-row;
   @extend .justify-content-center;
   &:nth-child(odd) {
     .meetup__summary__body {
@@ -41,5 +43,9 @@
   &__photo {
     @extend .col-lg-3;
     background-color: white;
+  }
+
+  .meetup-img-fluid {
+    @extend .align-self-center;
   }
 }
