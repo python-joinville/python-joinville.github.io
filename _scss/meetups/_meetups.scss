@@ -11,6 +11,7 @@
 
 .meetups__list {
   width: 100%;
+  font-size: 20px;
 }
 
 .meetup__summary {
@@ -47,5 +48,8 @@
 
   .meetup-img-fluid {
     @extend .align-self-center;
+    height: 400;
+    width: 540;
+    margin: 60px
   }
 }

@@ -4170,7 +4170,8 @@ a.text-dark:focus, a.text-dark:hover {
         left: 0px; } }
 
 .meetups__list {
-  width: 100%; }
+  width: 100%;
+  font-size: 20px; }
 
 .meetup__summary {
   width: 100%; }
@@ -4185,6 +4186,10 @@ a.text-dark:focus, a.text-dark:hover {
     font-size: 20px; }
   .meetup__summary__photo {
     background-color: white; }
+  .meetup__summary .meetup-img-fluid {
+    height: 400;
+    width: 540;
+    margin: 60px; }
 
 .location-wrapper {
   background-color: #102E46;
