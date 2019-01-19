@@ -4173,6 +4173,14 @@ a.text-dark:focus, a.text-dark:hover {
   width: 100%;
   font-size: 20px; }
 
+.meetup__photo {
+  padding: 0px; }
+
+.img-fluid-meetup {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
 .meetup__summary {
   width: 100%;
   margin: 40px; }
@@ -4534,8 +4542,7 @@ p {
   width: 100%; }
 
 .content-wrapper > section {
-  padding-top: 30px;
-  padding-bottom: 120px; }
+  padding-top: 30px; }
 
 .img-fluid {
   max-width: 70%;

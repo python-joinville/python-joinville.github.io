@@ -14,6 +14,17 @@
   font-size: 20px;
 }
 
+.meetup__photo {
+  padding: 0px;
+}
+
+.img-fluid-meetup {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
 .meetup__summary {
   width: 100%;
   margin: 40px;
