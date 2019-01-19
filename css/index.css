@@ -3794,10 +3794,10 @@ a.text-dark:focus, a.text-dark:hover {
   line-height: 1.3;
   font-weight: 700;
   text-transform: uppercase;
-  color: #102E46;
   border-bottom: solid 4px #EFC780;
   margin-bottom: 20px; }
   .section-title--left {
+    color: white;
     text-align: right;
     position: relative; }
     .section-title--left:after {
@@ -3811,6 +3811,7 @@ a.text-dark:focus, a.text-dark:hover {
       left: 0px;
       transform: translate(-100%, 100%); }
   .section-title--right {
+    color: #102E46;
     margin-left: auto;
     position: relative; }
     .section-title--right:after {
@@ -3825,6 +3826,7 @@ a.text-dark:focus, a.text-dark:hover {
       transform: translate(100%, 100%); }
 
 .section-header-wrapper {
+  margin-top: 30px;
   width: 100%; }
   .section-header-wrapper .section-header--right {
     margin-left: auto; }
@@ -4084,43 +4086,41 @@ a.text-dark:focus, a.text-dark:hover {
     background-position-y: 30px;
     padding-bottom: 100px; }
 
-.about__article, .about__article--left, .about__article--right {
-  color: black; }
-  .about__article--left {
-    text-align: right;
-    margin-top: 30px;
-    order: 2; }
-  .about__article--right {
-    text-align: left;
-    order: 1; }
-  .about__article__section-title {
-    border-bottom-color: white; }
-    .about__article__section-title--left {
-      border-bottom-color: white;
-      position: relative; }
-      .about__article__section-title--left:after {
-        content: '';
-        position: absolute;
-        height: 4px;
-        background-color: white;
-        width: 100vw;
-        bottom: 0px;
-        transform-origin: center left;
-        left: 0px;
-        transform: translate(-100%, 100%); }
-    .about__article__section-title--right {
-      border-bottom-color: white;
-      position: relative; }
-      .about__article__section-title--right:after {
-        content: '';
-        position: absolute;
-        height: 4px;
-        background-color: white;
-        width: 100vw;
-        bottom: 0px;
-        transform-origin: center left;
-        right: 0px;
-        transform: translate(100%, 100%); }
+.about__article--left {
+  text-align: right;
+  margin-top: 30px;
+  order: 2; }
+.about__article--right {
+  text-align: left;
+  order: 1; }
+.about__article__section-title {
+  border-bottom-color: white; }
+  .about__article__section-title--left {
+    border-bottom-color: white;
+    position: relative; }
+    .about__article__section-title--left:after {
+      content: '';
+      position: absolute;
+      height: 4px;
+      background-color: white;
+      width: 100vw;
+      bottom: 0px;
+      transform-origin: center left;
+      left: 0px;
+      transform: translate(-100%, 100%); }
+  .about__article__section-title--right {
+    border-bottom-color: white;
+    position: relative; }
+    .about__article__section-title--right:after {
+      content: '';
+      position: absolute;
+      height: 4px;
+      background-color: white;
+      width: 100vw;
+      bottom: 0px;
+      transform-origin: center left;
+      right: 0px;
+      transform: translate(100%, 100%); }
 
 @media (min-width: 767px) {
   .about__article--left {
@@ -4132,11 +4132,13 @@ a.text-dark:focus, a.text-dark:hover {
   .about-wrapper .about-container, .sponsors-wrapper .about-container {
     background-position: 295px 65px, right bottom; } }
 .meetups-wrapper {
+  background-color: #1F415F;
+  padding-bottom: 6px;
   margin-top: 0px;
   position: relative; }
   .meetups-wrapper:before, .meetups-wrapper:after {
     content: '';
-    background-color: white;
+    background-color: #1F415F;
     display: block;
     position: absolute;
     height: 100px;
@@ -4186,28 +4188,30 @@ a.text-dark:focus, a.text-dark:hover {
   margin: 40px; }
   .meetup__summary:nth-child(odd) .meetup__summary__body {
     order: 2; }
-  .meetup__summary__body {
-    background-color: white; }
   .meetup__summary__title {
+    font-weight: 700;
+    color: white;
     font-size: 35px; }
   .meetup__summary__text {
+    color: white;
     font-family: 'Advent Pro', sans-serif !important;
     font-weight: 700;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 8px; }
   .meetup__summary__photo {
-    background-color: white; }
+    background-color: #102E46; }
   .meetup__summary .meetup-img-fluid {
     margin: 60px; }
 
 .location-wrapper {
-  background-color: #102E46;
+  margin-bottom: 5px;
+  background-color: white;
   margin-top: 0px;
   position: relative; }
   .location-wrapper:before, .location-wrapper:after {
     content: '';
-    background-color: #102E46;
+    background-color: #1F415F;
     display: block;
     position: absolute;
     height: 100px;
@@ -4241,7 +4245,8 @@ a.text-dark:focus, a.text-dark:hover {
         left: 80%; } }
 
 .location-container .location .section-header .section-title, .location-container .location .section-header-wrapper .section-header--right .section-title, .section-header-wrapper .location-container .location .section-header--right .section-title, .location-container .location .section-header .section-title--left, .location-container .location .section-header-wrapper .section-header--right .section-title--left, .section-header-wrapper .location-container .location .section-header--right .section-title--left, .location-container .location .section-header .section-title--right, .location-container .location .section-header-wrapper .section-header--right .section-title--right, .section-header-wrapper .location-container .location .section-header--right .section-title--right, .location-container .location .section-header .about__article__section-title, .location-container .location .section-header-wrapper .section-header--right .about__article__section-title, .section-header-wrapper .location-container .location .section-header--right .about__article__section-title, .location-container .location .section-header .about__article__section-title--left, .location-container .location .section-header-wrapper .section-header--right .about__article__section-title--left, .section-header-wrapper .location-container .location .section-header--right .about__article__section-title--left, .location-container .location .section-header .about__article__section-title--right, .location-container .location .section-header-wrapper .section-header--right .about__article__section-title--right, .section-header-wrapper .location-container .location .section-header--right .about__article__section-title--right {
-  color: white; }
+  color: #102E46;
+  margin-top: 75px; }
 
 .location__info {
   width: 100%;
@@ -4272,7 +4277,7 @@ a.text-dark:focus, a.text-dark:hover {
     .location__info__article .past-location-website {
       display: block;
       font-family: 'Advent Pro', sans-serif;
-      color: white;
+      color: #102E46;
       font-weight: 600;
       font-size: 24px; }
     .location__info__article .article__section {
@@ -4291,8 +4296,7 @@ a.text-dark:focus, a.text-dark:hover {
   .location__info {
     margin-top: 50px; }
     .location__info__article {
-      text-align: right;
-      padding-bottom: 60px; }
+      text-align: right; }
       .location__info__article .article__header__title {
         font-size: 40px; }
       .location__info__article .article__header__subtitle {
@@ -4452,7 +4456,7 @@ a.text-dark:focus, a.text-dark:hover {
     height: 100px; }
 
 .footer {
-  padding-top: 50px;
+  padding-top: 70px;
   background-color: #102E46; }
   .footer a[disabled] {
     pointer-events: none;
@@ -4486,7 +4490,6 @@ a.text-dark:focus, a.text-dark:hover {
   .footer-note {
     font-family: 'Nunito', sans-serif;
     width: 100%;
-    margin-top: 65px;
     color: white; }
   .footer .pybr-button--light {
     width: 100%;
@@ -4529,6 +4532,9 @@ a.text-dark:focus, a.text-dark:hover {
 body {
   font-family: 'Advent Pro', sans-serif; }
 
+a {
+  color: #EFC780; }
+
 ul {
   margin: 0px;
   padding: 0px; }
@@ -4536,17 +4542,17 @@ ul {
 p {
   font-family: 'Nunito', 'Helvetica Neue', sans-serif !important; }
 
+li {
+  color: white; }
+
 .content-wrapper {
   overflow-x: hidden;
   position: relative;
   width: 100%; }
 
-.content-wrapper > section {
-  padding-top: 30px; }
-
 .img-fluid {
+  margin: 15px;
   max-width: 70%;
-  display: block;
-  margin: 0 auto; }
+  display: block; }
 
 /*# sourceMappingURL=index.css.map */

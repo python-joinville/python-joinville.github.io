@@ -24,11 +24,11 @@
   line-height: 1.3;
   font-weight: 700;
   text-transform: uppercase;
-  color: $dark-blue;
   border-bottom: solid 4px $python-yellow;
   margin-bottom: 20px;
   &--left {
     @extend .section-title;
+    color: white;
     text-align: right;
     position: relative;
     @include infinite-line('left', $python-yellow);
@@ -36,6 +36,7 @@
 
   &--right {
     @extend .section-title;
+    color: $dark-blue;
     margin-left: auto;
     position: relative;
     @include infinite-line('right', $python-yellow);
@@ -43,6 +44,7 @@
 }
 
 .section-header-wrapper {
+  margin-top: 30px;
   width: 100%;
   .section-header {
     @extend .col-lg-5;
