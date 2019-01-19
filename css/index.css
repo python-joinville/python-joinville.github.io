@@ -4174,7 +4174,8 @@ a.text-dark:focus, a.text-dark:hover {
   font-size: 20px; }
 
 .meetup__summary {
-  width: 100%; }
+  width: 100%;
+  margin: 40px; }
   .meetup__summary:nth-child(odd) .meetup__summary__body {
     order: 2; }
   .meetup__summary__body {
@@ -4182,12 +4183,14 @@ a.text-dark:focus, a.text-dark:hover {
   .meetup__summary__title {
     font-size: 35px; }
   .meetup__summary__text {
-    font-weight: 500;
-    font-size: 20px; }
+    font-family: 'Advent Pro', sans-serif !important;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 8px; }
   .meetup__summary__photo {
     background-color: white; }
   .meetup__summary .meetup-img-fluid {
-    height: 400;
     margin: 60px; }
 
 .location-wrapper {

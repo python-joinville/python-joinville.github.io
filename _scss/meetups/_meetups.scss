@@ -16,6 +16,7 @@
 
 .meetup__summary {
   width: 100%;
+  margin: 40px;
   @extend .d-flex;
   @extend .flex-column;
   @extend .flex-md-row;
@@ -37,8 +38,11 @@
   }
 
   &__text {
-    font-weight: 500;
+    font-family: 'Advent Pro', sans-serif !important;
+    font-weight: 700;
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 8px;
   }
 
   &__photo {
