@@ -99,6 +99,10 @@ body {
   font-family: 'Advent Pro', sans-serif;
 }
 
+a {
+  color: $python-yellow;
+}
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -108,19 +112,18 @@ p {
   font-family: 'Nunito', 'Helvetica Neue', sans-serif !important;
 }
 
+li {
+  color: white;
+}
+
 .content-wrapper {
   overflow-x: hidden;
   position: relative;
   width: 100%;
 }
 
-.content-wrapper > section {
-  padding-top: 30px;
-  padding-bottom: 120px;
-}
-
 .img-fluid {
+  margin: 15px;
   max-width: 70%;
   display: block;
-  margin: 0 auto;
 }

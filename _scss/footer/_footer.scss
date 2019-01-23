@@ -3,7 +3,7 @@
     pointer-events: none;
     color: rgba(255, 255, 255, .66) !important;
   }
-  padding-top: 50px;
+  padding-top: 70px;
   background-color: $dark-blue;
   &__nav {
     @extend .d-flex;
@@ -43,7 +43,6 @@
   &-note {
     font-family: 'Nunito', sans-serif;
     width: 100%;
-    margin-top: 65px;
     color: white;
   }
   .pybr-button--light {

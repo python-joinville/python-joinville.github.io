@@ -1,6 +1,7 @@
 .location-wrapper {
-  background-color: $dark-blue;
-  @include make-angle($dark-blue, -1);
+  margin-bottom: 5px;
+  background-color: white;
+  @include make-angle($medium-blue, -1);
 }
 
 .location-container {
@@ -9,7 +10,8 @@
     @extend .row;
     .section-header {
       .section-title {
-        color: white;
+        color: $dark-blue;
+        margin-top: 75px;
       }
     }
   }
@@ -57,7 +59,7 @@
     .past-location-website {
       display: block;
       font-family: 'Advent Pro', sans-serif;
-      color: white;
+      color: $dark-blue;
       font-weight: 600;
       font-size: 24px;
     }
@@ -93,7 +95,6 @@
     margin-top: 50px;
     &__article {
       text-align: right;
-      padding-bottom: 60px;
       .article__header {
         &__title {
           font-size: 40px;
